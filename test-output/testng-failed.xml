@@ -3,13 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testng.code.TriCombo">
+      <class name="testng.code.Assert_Concepts">
         <methods>
-          <include name="clickonSignLinkandEnterLoginCredentials"/>
-          <include name="launchUrl"/>
-          <include name="afterMethod"/>
+          <include name="checkingOutPut"/>
         </methods>
-      </class> <!-- testng.code.TriCombo -->
+      </class> <!-- testng.code.Assert_Concepts -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

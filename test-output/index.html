@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\sarth\AppData\Local\Temp\testng-eclipse-1989659884\testng-customsuite.xml</span>
+                    <span>C:\Users\sarth\AppData\Local\Temp\testng-eclipse--196502926\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -104,7 +104,7 @@
                     <div class="method-list-content failed suite-Default_suite">
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testng.code.TriCombo" hash-for-method="clickonSignLinkandEnterLoginCredentials">clickonSignLinkandEnterLoginCredentials</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testng.code.Assert_Concepts" hash-for-method="checkingOutPut">checkingOutPut</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Default_suite -->
@@ -118,7 +118,7 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testng.code.TriCombo" hash-for-method="businessEmailTest">businessEmailTest</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testng.code.Assert_Concepts" hash-for-method="somethingElse">somethingElse</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -136,39 +136,19 @@
           <div class="suite-Default_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">testng.code.TriCombo</span>
+              <span class="class-name">testng.code.Assert_Concepts</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="clickonSignLinkandEnterLoginCredentials">
-                  </a> <!-- clickonSignLinkandEnterLoginCredentials -->
-                  <span class="method-name">clickonSignLinkandEnterLoginCredentials</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.signin&quot;}
-  (Session info: chrome=105.0.5195.102)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
-System info: host: &apos;LAPTOP-INV4FEQ8&apos;, ip: &apos;192.168.1.114&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2c64313f8253da4d80a6bef60ab5a84f, findElement {using=class name, value=signin}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\sarth\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62976}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62976/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 2c64313f8253da4d80a6bef60ab5a84f
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
-	at testng.code.TriCombo.clickonSignLinkandEnterLoginCredentials(TriCombo.java:38)
+                  <a name="checkingOutPut">
+                  </a> <!-- checkingOutPut -->
+                  <span class="method-name">checkingOutPut</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at testng.code.Assert_Concepts.checkingOutPut(Assert_Concepts.java:27)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -206,14 +186,14 @@ Session ID: 2c64313f8253da4d80a6bef60ab5a84f
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testng.code.TriCombo</span>
+              <span class="class-name">testng.code.Assert_Concepts</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="businessEmailTest">
-                  </a> <!-- businessEmailTest -->
-                  <span class="method-name">businessEmailTest</span>
+                  <a name="somethingElse">
+                  </a> <!-- somethingElse -->
+                  <span class="method-name">somethingElse</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -221,7 +201,7 @@ Session ID: 2c64313f8253da4d80a6bef60ab5a84f
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\sarth\AppData\Local\Temp\testng-eclipse-1989659884\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\sarth\AppData\Local\Temp\testng-eclipse--196502926\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -230,7 +210,7 @@ Session ID: 2c64313f8253da4d80a6bef60ab5a84f
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
   &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;testng.code.TriCombo&quot;/&gt;
+      &lt;class name=&quot;testng.code.Assert_Concepts&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -272,18 +252,18 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'businessEmailTest')
-data.setCell(0, 2, 'testng.code.TriCombo')
-data.setCell(0, 3, 5552);
+data.setCell(0, 1, 'checkingOutPut')
+data.setCell(0, 2, 'testng.code.Assert_Concepts')
+data.setCell(0, 3, 10);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'clickonSignLinkandEnterLoginCredentials')
-data.setCell(1, 2, 'testng.code.TriCombo')
-data.setCell(1, 3, 29);
+data.setCell(1, 1, 'somethingElse')
+data.setCell(1, 2, 'testng.code.Assert_Concepts')
+data.setCell(1, 3, 1);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 5 seconds</span>
+              <span class="suite-total-time">Total running time: 11 ms</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -309,25 +289,17 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">testng.code.TriCombo</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
-                <span class="method-name">launchUrl</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-test before -->
-              <div class="test-method">
-                <span class="method-name">businessEmailTest</span>
-                <span class="method-start">4438 ms</span>
-              </div> <!-- test-method -->
+              <div class="chronological-class-name">testng.code.Assert_Concepts</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">clickonSignLinkandEnterLoginCredentials</span>
-                <span class="method-start">9994 ms</span>
+                <span class="method-name">checkingOutPut</span>
+                <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-test after">
-                <span class="method-name">afterMethod</span>
-                <span class="method-start">10029 ms</span>
-              </div> <!-- configuration-test after -->
+              <div class="test-method">
+                <span class="method-name">somethingElse</span>
+                <span class="method-start">14 ms</span>
+              </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

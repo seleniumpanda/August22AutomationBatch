@@ -22,7 +22,7 @@ public class TriCombo {
 		driver.manage().window().maximize();
 	}
 
-	@Test
+	@Test(priority = 1)
 	public void businessEmailTest() throws InterruptedException {
 		driver.findElement(By.cssSelector("a.bmailicon.relative")).click();
 		Thread.sleep(2000);
@@ -33,7 +33,7 @@ public class TriCombo {
 
 	}
 	
-	  @Test
+	  @Test(priority = 2, alwaysRun = true)
 	  public void clickonSignLinkandEnterLoginCredentials() {
 	  driver.findElement(By.className("signin")).click(); 
 	  driver.findElement(By.id("login1")).sendKeys("seleniumpanda@rediffmail.com");
