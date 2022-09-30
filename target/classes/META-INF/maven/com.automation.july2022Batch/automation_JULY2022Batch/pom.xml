@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.august2022.program</groupId>
-  <artifactId>AUGUST_2022_BATCH</artifactId>
+  <groupId>com.automation.july2022Batch</groupId>
+  <artifactId>automation_JULY2022Batch</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <dependencies>
   <!-- https://mvnrepository.com/artifact/junit/junit -->
@@ -28,12 +28,11 @@
     <version>4.4.0</version>
 </dependency>
 
-
 <!-- https://mvnrepository.com/artifact/org.testng/testng -->
 <dependency>
     <groupId>org.testng</groupId>
     <artifactId>testng</artifactId>
-    <version>7.6.1</version>
+    <version>6.14.3</version>
     <scope>test</scope>
 </dependency>
 

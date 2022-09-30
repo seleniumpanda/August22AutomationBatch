@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="testng.code.Rediff_TestNG"/>
+      <class name="testng.code.Priority_Enablement"/>
+      <class name="testng.code.Assert_Concepts"/>
+      <class name="testng.code.TriCombo"/>
+      <class name="testng.code.DataProvider_Concepts"/>
+      <class name="testng.code.SoftHardAssert_Automation"/>
+      <class name="testng.code.Annotations"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

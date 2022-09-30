@@ -10,7 +10,7 @@ public class DataProvider_Concepts {
 	
 	//login logic - un/pwd    u1/p1,  u2/p2, u3/p3, u4/p4
 	
-	@Test(dataProvider = "godownDataToBeUsedForParameterization") //The name of the data provider for this test method.
+	@Test(dataProvider = "getData") //The name of the data provider for this test method.
 	public void dataMatrix(String Browser, String username, String password, int employee_id) {
 		
 	}
@@ -24,7 +24,7 @@ public class DataProvider_Concepts {
 	//to the name of this annotation.
 	
 	@DataProvider
-	public Object[][] godownDataToBeUsedForParameterization() {
+	public Object[][] getData() {
 		Object[][] data = new Object[3][4];
 		
 		data[0][0] = "Chrome";
