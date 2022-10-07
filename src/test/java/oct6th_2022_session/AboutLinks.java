@@ -16,7 +16,7 @@ public class AboutLinks {
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.get("https://rediff.com");
+		driver.get("https://rediff.com"); //bbc.com    cnn.com
 		String rediffPageTitle = driver.getTitle();
 		System.out.println("The title of the landing page is: " + rediffPageTitle);
 
