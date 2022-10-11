@@ -1,39 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="12112" started-at="2022-09-29T21:39:51 EDT" finished-at="2022-09-29T21:40:03 EDT">
+  <suite name="Default suite" duration-ms="51" started-at="2022-10-10T21:58:02 EDT" finished-at="2022-10-10T21:58:02 EDT">
     <groups>
     </groups>
-    <test name="Test" duration-ms="12112" started-at="2022-09-29T21:39:51 EDT" finished-at="2022-09-29T21:40:03 EDT">
-      <class name="testng.code.TesTNG_Parameterization">
-        <test-method status="PASS" signature="rediffParameterization(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testng.code.TesTNG_Parameterization@365185bd]" name="rediffParameterization" duration-ms="12042" started-at="2022-09-29T21:39:51 EDT" finished-at="2022-09-29T21:40:03 EDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[https://mail.rediff.com/cgi-bin/login.cgi]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[seleniumpanda@rediffmail.com]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Selenium@123]]>
-              </value>
-            </param>
-          </params>
+    <test name="Default test" duration-ms="51" started-at="2022-10-10T21:58:02 EDT" finished-at="2022-10-10T21:58:02 EDT">
+      <class name="doubts.TriCombo">
+        <test-method status="PASS" signature="checkStart()[pri:0, instance:doubts.TriCombo@78ac1102]" name="checkStart" is-config="true" duration-ms="4" started-at="2022-10-10T21:58:02 EDT" finished-at="2022-10-10T21:58:02 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- rediffParameterization -->
-      </class> <!-- testng.code.TesTNG_Parameterization -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- checkStart -->
+        <test-method status="PASS" signature="check1()[pri:0, instance:doubts.TriCombo@78ac1102]" name="check1" duration-ms="4" started-at="2022-10-10T21:58:02 EDT" finished-at="2022-10-10T21:58:02 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check1 -->
+        <test-method status="PASS" signature="checkEnd()[pri:0, instance:doubts.TriCombo@78ac1102]" name="checkEnd" is-config="true" duration-ms="0" started-at="2022-10-10T21:58:02 EDT" finished-at="2022-10-10T21:58:02 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkEnd -->
+        <test-method status="PASS" signature="check2()[pri:0, instance:doubts.TriCombo@78ac1102]" name="check2" duration-ms="1" started-at="2022-10-10T21:58:02 EDT" finished-at="2022-10-10T21:58:02 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check2 -->
+        <test-method status="PASS" signature="checkStart()[pri:0, instance:doubts.TriCombo@78ac1102]" name="checkStart" is-config="true" duration-ms="0" started-at="2022-10-10T21:58:02 EDT" finished-at="2022-10-10T21:58:02 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStart -->
+        <test-method status="PASS" signature="checkEnd()[pri:0, instance:doubts.TriCombo@78ac1102]" name="checkEnd" is-config="true" duration-ms="1" started-at="2022-10-10T21:58:02 EDT" finished-at="2022-10-10T21:58:02 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkEnd -->
+      </class> <!-- doubts.TriCombo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

@@ -6,6 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -13,8 +14,10 @@ public class AboutLinks {
 	public static WebDriver driver;
 
 	public static void main(String[] args) {
+		ChromeOptions options = new ChromeOptions();
+		options.setHeadless(true);
 		WebDriverManager.chromedriver().setup();
-		driver = new ChromeDriver();
+		driver = new ChromeDriver(options);
 		driver.manage().window().maximize();
 		driver.get("https://rediff.com"); //bbc.com    cnn.com
 		String rediffPageTitle = driver.getTitle();
