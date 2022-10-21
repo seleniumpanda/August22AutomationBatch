@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="51" started-at="2022-10-10T21:58:02 EDT" finished-at="2022-10-10T21:58:02 EDT">
+  <suite name="Suite" duration-ms="46433" started-at="2022-10-20T22:02:28 EDT" finished-at="2022-10-20T22:03:15 EDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="51" started-at="2022-10-10T21:58:02 EDT" finished-at="2022-10-10T21:58:02 EDT">
-      <class name="doubts.TriCombo">
-        <test-method status="PASS" signature="checkStart()[pri:0, instance:doubts.TriCombo@78ac1102]" name="checkStart" is-config="true" duration-ms="4" started-at="2022-10-10T21:58:02 EDT" finished-at="2022-10-10T21:58:02 EDT">
+    <test name="Test" duration-ms="46433" started-at="2022-10-20T22:02:28 EDT" finished-at="2022-10-20T22:03:15 EDT">
+      <class name="oct20th_2022_session.Parallel_TestNG_Class2">
+        <test-method status="PASS" signature="testcase1()[pri:0, instance:oct20th_2022_session.Parallel_TestNG_Class2@2de8284b]" name="testcase1" duration-ms="10345" started-at="2022-10-20T22:02:28 EDT" finished-at="2022-10-20T22:02:39 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkStart -->
-        <test-method status="PASS" signature="check1()[pri:0, instance:doubts.TriCombo@78ac1102]" name="check1" duration-ms="4" started-at="2022-10-10T21:58:02 EDT" finished-at="2022-10-10T21:58:02 EDT">
+        </test-method> <!-- testcase1 -->
+        <test-method status="PASS" signature="testcase1()[pri:0, instance:oct20th_2022_session.Parallel_TestNG_Class2@2de8284b]" name="testcase1" duration-ms="8958" started-at="2022-10-20T22:02:28 EDT" finished-at="2022-10-20T22:02:37 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- check1 -->
-        <test-method status="PASS" signature="checkEnd()[pri:0, instance:doubts.TriCombo@78ac1102]" name="checkEnd" is-config="true" duration-ms="0" started-at="2022-10-10T21:58:02 EDT" finished-at="2022-10-10T21:58:02 EDT">
+        </test-method> <!-- testcase1 -->
+        <test-method status="PASS" signature="testcase2()[pri:0, instance:oct20th_2022_session.Parallel_TestNG_Class2@2de8284b]" name="testcase2" duration-ms="7559" started-at="2022-10-20T22:02:39 EDT" finished-at="2022-10-20T22:02:46 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkEnd -->
-        <test-method status="PASS" signature="check2()[pri:0, instance:doubts.TriCombo@78ac1102]" name="check2" duration-ms="1" started-at="2022-10-10T21:58:02 EDT" finished-at="2022-10-10T21:58:02 EDT">
+        </test-method> <!-- testcase2 -->
+        <test-method status="PASS" signature="testcase2()[pri:0, instance:oct20th_2022_session.Parallel_TestNG_Class2@2de8284b]" name="testcase2" duration-ms="7699" started-at="2022-10-20T22:02:39 EDT" finished-at="2022-10-20T22:02:46 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- check2 -->
-        <test-method status="PASS" signature="checkStart()[pri:0, instance:doubts.TriCombo@78ac1102]" name="checkStart" is-config="true" duration-ms="0" started-at="2022-10-10T21:58:02 EDT" finished-at="2022-10-10T21:58:02 EDT">
+        </test-method> <!-- testcase2 -->
+        <test-method status="PASS" signature="testcase3()[pri:0, instance:oct20th_2022_session.Parallel_TestNG_Class2@2de8284b]" name="testcase3" duration-ms="13726" started-at="2022-10-20T22:02:46 EDT" finished-at="2022-10-20T22:03:00 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkStart -->
-        <test-method status="PASS" signature="checkEnd()[pri:0, instance:doubts.TriCombo@78ac1102]" name="checkEnd" is-config="true" duration-ms="1" started-at="2022-10-10T21:58:02 EDT" finished-at="2022-10-10T21:58:02 EDT">
+        </test-method> <!-- testcase3 -->
+        <test-method status="PASS" signature="testcase3()[pri:0, instance:oct20th_2022_session.Parallel_TestNG_Class2@2de8284b]" name="testcase3" duration-ms="28347" started-at="2022-10-20T22:02:46 EDT" finished-at="2022-10-20T22:03:15 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkEnd -->
-      </class> <!-- doubts.TriCombo -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- testcase3 -->
+      </class> <!-- oct20th_2022_session.Parallel_TestNG_Class2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
